@@ -77,21 +77,24 @@ As you can see, categorizing is slightly arbitrary. One might say "pages" and "v
 
 ### Sample Directory Structure
 *SMACCS*
-layout/
-  grid.scss
-  alternate.scss
-module/
-  callout.scss
-  bookmarks.scss
-  btn.scss
-  btn-compose.scss
-base.scss
-states.scss
-site-settings.scss
-mixins.scss
-<br />
-<br />
+```
+sass/
+|
+|- layout
+|  |- grid.scss
+|  |- alternate.scss
+|- module/
+|     |- callout.scss
+|     |- bookmarks.scss
+|     |- btn.scss
+|     |- btn-compose.scss
+|- base.scss
+|- states.scss
+|- site-settings.scss
+|- mixins.scss
+```
 *7-to-1*
+```
 sass/
 |
 |– base/
@@ -138,3 +141,4 @@ sass/
 |
 |
 `– main.scss             # Main Sass file
+```
