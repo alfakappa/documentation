@@ -59,6 +59,7 @@ Categorize your stylesheets. As in many architectural patterns, their are more w
 3. Module
 4. State
 5. Theme
+
 (SMACCS-approach)
 
 1. base/
@@ -68,7 +69,7 @@ Categorize your stylesheets. As in many architectural patterns, their are more w
 5. themes/
 6. utils/
 7. vendors/
-*1 main file to rule them all*
+
 (7-to-1 Pattern using SASS)
 
 As you can see, categorizing is slightly arbitrary. One might say "pages" and "vendors" belong to "modules", where others might say that the category "module" is way to general to actually stick to. What stands out however is that both classifications implicate the use of separate files that each are responsible for the styling of only one particular part of your application. In extremis this is applicable to all code within the whole project. (You might even implicate this architecture stands the ground for MVC's such as Angular and/or BEM-projects as well).
@@ -136,6 +137,3 @@ sass/
 |
 |
 `– main.scss             # Main Sass file
-
-
-
